@@ -20,15 +20,15 @@ select = input ("请输入是or否 <")
 while select == "是" and select == "否":
     if select == "是":
         print ("好的，我将送你到天马座星系。")
-        print ("."*20)
+        print ("."*30)
         print ("你现在已经到了天马座星系。")
         print ("出现在你面前的是敌人的大BOOS——暗黑破坏兽")
         break
     elif select == "否":
         print ("砰！！！")
         print ("出现在你面前的是敌人的大BOOS——暗黑破坏兽")
-        print ("它叫嚣道:没想到吧！！！")
-        print("我已经来了，准备受死吧！")
+        print ('它叫嚣道:没想到吧！！！')
+        print('我已经来了，准备受死吧！')
         break
     else:
         print ("请重新输入")
