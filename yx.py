@@ -8,12 +8,6 @@ class Creature():
 
 
 
-
-
-
-
-
-
 name = input ("请输入你的名字 <")
 
 player = Creature(name,100)
@@ -34,6 +28,7 @@ while select == "是" and select == "否":
         print ("砰！！！")
         print ("出现在你面前的是敌人的大BOOS——暗黑破坏兽")
         print ("它叫嚣道:没想到吧！！！")
+        print("我已经来了，准备受死吧！")
         break
     else:
         print ("请重新输入")
